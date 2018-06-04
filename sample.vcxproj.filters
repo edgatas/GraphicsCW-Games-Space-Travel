@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\shaders">
+      <UniqueIdentifier>{03bf9ebc-d803-4517-9a6d-f252209ed292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\glslfiles">
+      <UniqueIdentifier>{386cf07a-40ad-4553-ad49-99dbaa4d0e24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Shapes">
+      <UniqueIdentifier>{bd7e3062-dc1a-4dca-a1f9-8ff88b115339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectLoader">
+      <UniqueIdentifier>{9493473c-33b6-4aef-8f6a-9eb3153e384c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectLoader\3dStruct">
+      <UniqueIdentifier>{bb16db67-1f23-4944-a7a6-5e341e269cd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectLoader\Octree">
+      <UniqueIdentifier>{47ec03a4-1f30-4bf3-a0c7-d2e1c63f5dda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectLoader\Structures">
+      <UniqueIdentifier>{2dca03e8-a523-4a90-90c3-88c20eff913d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectLoader\TextureHandler">
+      <UniqueIdentifier>{6e6721cd-cd07-4fc8-931d-a5df74e18814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectLoader\Utilities">
+      <UniqueIdentifier>{1220f7de-9d99-4f4f-ab14-0c8932ef0300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectLoader\Images">
+      <UniqueIdentifier>{f58fd61f-ccbc-404c-9dc2-7fc18cbb555a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="shaders\Shader.cpp">
+      <Filter>Header Files\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectLoader\3dStruct\BoundingBox.cpp">
+      <Filter>ObjectLoader\3dStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectLoader\3dStruct\threeDModel.cpp">
+      <Filter>ObjectLoader\3dStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectLoader\Structures\Vector2d.cpp">
+      <Filter>ObjectLoader\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectLoader\Structures\Vector3d.cpp">
+      <Filter>ObjectLoader\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectLoader\Octree\Octree.cpp">
+      <Filter>ObjectLoader\Octree</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectLoader\TextureHandler\TextureHandler.cpp">
+      <Filter>ObjectLoader\TextureHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectLoader\Utilities\IntersectionTests.cpp">
+      <Filter>ObjectLoader\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectLoader\OBJLoader.cpp">
+      <Filter>ObjectLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectLoader\Box.cpp">
+      <Filter>ObjectLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectLoader\Images\imageLoaderPNG.cpp">
+      <Filter>ObjectLoader\Images</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes\Cube.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="models.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Other\Sphere.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shaders\Shader.h">
+      <Filter>Header Files\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectLoader\3dStruct\BoundingBox.h">
+      <Filter>ObjectLoader\3dStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectLoader\3dStruct\threeDModel.h">
+      <Filter>ObjectLoader\3dStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectLoader\Structures\Vector2d.h">
+      <Filter>ObjectLoader\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectLoader\Structures\Vector3d.h">
+      <Filter>ObjectLoader\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectLoader\Octree\Octree.h">
+      <Filter>ObjectLoader\Octree</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectLoader\TextureHandler\texturehandler.h">
+      <Filter>ObjectLoader\TextureHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectLoader\Utilities\IntersectionTests.h">
+      <Filter>ObjectLoader\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectLoader\Utilities\Lighting.h">
+      <Filter>ObjectLoader\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectLoader\OBJLoader.h">
+      <Filter>ObjectLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectLoader\Box.h">
+      <Filter>ObjectLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectLoader\Images\imageloader.h">
+      <Filter>ObjectLoader\Images</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectLoader\Images\nvImage.h">
+      <Filter>ObjectLoader\Images</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes\Cube.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="models.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Movement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\Sphere.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="glslfiles\basicTransformations.frag">
+      <Filter>Header Files\glslfiles</Filter>
+    </None>
+    <None Include="glslfiles\basicTransformations.vert">
+      <Filter>Header Files\glslfiles</Filter>
+    </None>
+    <None Include="glslfiles\basic.frag">
+      <Filter>Header Files\glslfiles</Filter>
+    </None>
+    <None Include="glslfiles\basic.vert">
+      <Filter>Header Files\glslfiles</Filter>
+    </None>
+    <None Include="glslfiles\Planet.frag">
+      <Filter>Header Files\glslfiles</Filter>
+    </None>
+    <None Include="glslfiles\Planet.vert">
+      <Filter>Header Files\glslfiles</Filter>
+    </None>
+    <None Include="glslfiles\Sun.frag">
+      <Filter>Header Files\glslfiles</Filter>
+    </None>
+    <None Include="glslfiles\Sun.vert">
+      <Filter>Header Files\glslfiles</Filter>
+    </None>
+    <None Include="glslfiles\skyBoxShader.frag">
+      <Filter>Header Files\glslfiles</Filter>
+    </None>
+    <None Include="glslfiles\skyBoxShader.vert">
+      <Filter>Header Files\glslfiles</Filter>
+    </None>
+    <None Include="glslfiles\spaceShipShader.frag">
+      <Filter>Header Files\glslfiles</Filter>
+    </None>
+    <None Include="glslfiles\spaceShipShader.vert">
+      <Filter>Header Files\glslfiles</Filter>
+    </None>
+  </ItemGroup>
+</Project>
